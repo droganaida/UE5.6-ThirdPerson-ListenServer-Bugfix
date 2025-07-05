@@ -45,7 +45,7 @@ Now, with multiple contexts and `Possessed` + `Receive Controller Changed` mixed
 
 ---
 
-## *The Fix
+## The Fix
 
 - **Move** the `Add Mapping Context` node to the **`Receive Controller Changed`** event instead of `Possessed`.  
 - **Always wrap** it with **`Is Locally Controlled`** — so only the owning client sets up input.  
@@ -67,5 +67,5 @@ This repo contains a working minimal project with my fixed template — feel fre
 
 **Thanks for reading — I hope this little fix saves you time and nerves!**
 
-Shared by the [https://www.silvercord-vr.com/](**SilverCord-VR** team} — we believe Unreal knowledge should be open & clear.  
+Shared by the [**SilverCord-VR** team](https://www.silvercord-vr.com/) — we believe Unreal knowledge should be open & clear.  
 If you found this helpful, let’s stay in touch — we love collaborating on ambitious **multiplayer/VR** projects!
